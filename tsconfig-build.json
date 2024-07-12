@@ -5,10 +5,5 @@
     "declaration": true,
     "declarationDir": "dist",
   },
-   "exclude": [
-    "node_modules",
-    "dist",
-    "build",
-  ],
   "include": ["lib"]
 }
