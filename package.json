@@ -2,7 +2,7 @@
   "name": "@aleksandrmr/my-component-library",
   "author": "Andreas Riedmüller",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc --p ./tsconfig-build.json && vite build",
+    "build": "tsc --p && vite build && ./tsconfig-build.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
