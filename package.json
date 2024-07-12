@@ -1,5 +1,5 @@
 {
-  "name": "@receter/my-component-library",
+  "name": "@aleksandrmr/my-component-library",
   "author": "Andreas Riedmüller",
   "private": false,
   "version": "0.0.1",
@@ -11,7 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/receter/my-component-library"
+    "url": "https://github.com/AleksandrMR/my-component-library"
+  },
+   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@AleksandrMR"
   },
   "sideEffects": [
     "**/*.css"
